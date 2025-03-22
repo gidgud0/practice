@@ -1,0 +1,13 @@
+.logo__lemonde {
+    background-image: url('svg/lemonde.svg');
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.logo__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.81rem;
+    width: 17.7rem;
+}

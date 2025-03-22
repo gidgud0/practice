@@ -1,0 +1,56 @@
+.login__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+    .login__sign-in {
+        height: 3rem;
+        width: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .login__sign-in:hover {
+        color: #026b9c;
+        fill: #026b9c;
+    }
+
+    .login__text {
+        font-size: 16px;
+        color: #000000;
+    }
+    
+    .login__text:hover {
+        color: #026b9c;
+    }
+
+    .user__svg-logo {
+        background-image: url('svg/user.svg');
+        width: 18% !important;
+        height: 50% !important;
+    }
+
+    .login__register-button {
+        height: 2.5rem;
+        width: 6rem;
+        background-color: #ffc700;
+        border: none;
+        border-radius: .2rem;
+        transition: ease-in 0.2s;
+        cursor: pointer;
+    }
+
+    .login__divider {
+        background-color: #9ea0a3;
+        height: 2rem;
+        width: .05rem;
+        margin: 10px
+    }
+
+    .login__register-button:hover {
+        background-color: #eab002;
+    }

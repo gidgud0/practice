@@ -1,0 +1,30 @@
+article {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 12px;
+    width: 50%;
+    position: absolute;
+    top: 5rem;
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    top: 15rem;
+    flex-grow: 1;
+}
+
+article h1 {
+    text-align: center;
+}
+
+article p {
+    font-size: 16px;
+}
+
+.article__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80%;
+}
